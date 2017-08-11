@@ -1,0 +1,21 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "I am demonstrating npm",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build": "browserify bot.js -o bundle.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "qdotclass",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
