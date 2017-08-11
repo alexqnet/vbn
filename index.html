@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+		<title>VBN</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<!-- CSS link file -->
+		<link rel="stylesheet" type="text/css" href="vbnStyle.css">
+		
+		<script src="https://code.jquery.com/jquery.js"></script>
+   		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+			<div class="jumbotron">
+			  <h1><b>VBN</b></h1>
+			  <h2>Verified Breaking News</h2>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+			<div calss="row">
+				<div class="col-lg-12">
+				<div class="input-group">
+				 <input type="text" class="form-control" placeholder="What News Are You Looking For?"></input>  
+			    </div><!-- /input-group --> 
+			  </div><!-- /.col-lg-12 -->
+			</div> 
+
+
+			<div calss="row">
+				<div class="col-lg-12">
+				<div class="input-group">
+				  <span class="input-group-addon" id="sizing-addon2">Optional</span>
+				  <input type="text" class="form-control" placeholder="Search By Location" aria-describedby="sizing-addon2">   
+			    </div><!-- /input-group --> 
+			  </div><!-- /.col-lg-12 -->
+			</div>  
+
+
+			<div calss="row">
+				<div class="col-lg-12">
+				<div class="input-group">
+				  <span class="input-group-addon" id="sizing-addon2">Latest News</span>
+				  <input type="text" class="form-control" aria-describedby="sizing-addon2">   
+			    </div><!-- /input-group --> 
+			  </div><!-- /.col-lg-12 -->
+			</div>  
+
+			<!--Search Button-->
+			<div calss="row">
+				<button type="button" class="btn btn-default navbar-btn">Search</button> 
+			</div> 
+		</div><!--container-->	
+
+
+			<!--Results Panel-->
+		<div class="container">
+			<div calss="row">
+				<div class="panel panel-info">
+				  <div class="panel-heading">
+				  <div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    Choose a Language
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					    <li><a href="#">Action</a></li>
+					    <li><a href="#">Another action</a></li>
+					    <li><a href="#">Something else here</a></li>
+					    <li role="separator" class="divider"></li>
+					    <li><a href="#">Separated link</a></li>
+					  </ul>
+					</div>
+				  <img src=twitter.png width="60">
+				  	<h3 class="panel-title">Results</h3>
+				  </div>
+				  <div class="panel-body">
+				    all results
+				  </div>
+				</div>
+			</div>		
+		</div>
+			
+
+
+			
+
+
+		</div><!--container-->	
+			
+
+	</body>
+</html>

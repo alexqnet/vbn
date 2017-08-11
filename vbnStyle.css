@@ -1,0 +1,36 @@
+*{
+
+}
+
+.jumbotron{
+	color: #fff;
+	background-image: url("worldmap.jpeg");
+	text-align: center;
+	padding: 70px;	
+}
+
+.input-group{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.btn{
+	float: right;
+	color: #219ECC; 
+	margin-bottom: 28px;
+}
+
+img{
+	margin-left: -15px;	
+}
+
+h3{
+	padding-top: 5px ;
+	float: left;
+}
+
+.dropdown{
+	float: right;
+	margin-top: -3px; 
+	color: #219ECC;
+}
